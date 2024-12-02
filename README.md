@@ -14,7 +14,7 @@ https://github.com/NicolasJRuax/Transporte.git
 
 2. **Consulta de Paradas**:
    - Para cada línea, se pueden visualizar las paradas asociadas.
-   - Algunas paradas se marcan como "Fuera de Servicio" aleatoriamente.
+   - Algunas paradas estarán  "Fuera de Servicio" .
 
 3. **Información en Tiempo Real**:
    - Tiempo restante para la llegada del próximo transporte.
@@ -22,7 +22,7 @@ https://github.com/NicolasJRuax/Transporte.git
 
 4. **Gestión Dinámica**:
    - Uso de listas dinámicas para mostrar las paradas.
-   - Generación de tiempos y estados aleatorios para simular datos en tiempo real.
+   - Generación de tiempos y estados para simular datos en tiempo real.
 
 ---
 
@@ -57,7 +57,7 @@ https://github.com/NicolasJRuax/Transporte.git
   - Simula el tiempo restante para la llegada del transporte y marca algunas paradas como "Fuera de Servicio".
 - **Detalles Técnicos**:
   - Genera una lista dinámica de paradas.
-  - Utiliza un generador aleatorio para:
+  - Utiliza un generador para:
     - Marcar dos paradas como "Fuera de Servicio".
     - Generar un tiempo de llegada aleatorio para cada parada activa.
   - Muestra mensajes en forma de `Toast` según el estado de la parada seleccionada.
