@@ -34,6 +34,9 @@ android {
 dependencies {
 
     implementation(libs.appcompat)
+    implementation ("androidx.appcompat:appcompat:1.6.1")
+    implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation ("com.google.android.material:material:1.9.0")
     implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
